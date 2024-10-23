@@ -1,0 +1,18 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "@/*": [
+        "./*"
+      ]
+    }
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    ".expo/types/**/*.ts",
+    "expo-env.d.ts",
+    "nativewind-env.d.ts"
+, "app/(auth)/_layout.tsx", "app/(auth)/sign-in.tsx", "components/CustomButton.jsx", "app/(auth)/sign-up.jsx", "app/(tabs)/_layout.jsx", "app/(tabs)/bookmarks.jsx", "app/(tabs)/create.jsx", "app/(tabs)/home.jsx", "app/(tabs)/profile.jsx", "app/search/[query].jsx", "app/_layout.jsx", "app/index.jsx", "components/FormField.jsx"  ]
+}

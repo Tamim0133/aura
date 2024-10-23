@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "Aora",
+    "slug": "aora",
+    "version": "1.0.0",
+    "orientation": "portrait",
+
+    "scheme": "aora",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#ffffff"
+      },
+      "package":"com.example.idea-tracker"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "package":"com.example.idea-tracker"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
